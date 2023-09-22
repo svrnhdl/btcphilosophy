@@ -1,0 +1,3 @@
+== Acknowledgements
+Our profound gratitude to Chaincode Labs for commissioning and funding this invaluable piece of work and to every individual who contributed their insights and expertise in the making of this guide. We extend our heartfelt thanks to Kalle Rosenbaum, the main author, and Linnéa Rosenbaum, the co-author, whose invaluable insights and meticulous efforts have shaped this book. The pursuit of knowledge is a collective endeavor, and this work is imbued with the wisdom and experiences of many brilliant minds from the Bitcoin development community.
+

@@ -1,0 +1,2 @@
+== Preface
+Bitcoin Development Philosophy is not merely a guide; it is a contemplative exploration into the very essence of Bitcoin. It aims to equip developers with a profound understanding of the philosophical underpinnings and design paradigms of Bitcoin, enabling them to navigate its complex realms with informed discretion and informed curiosity. This book is the culmination of lessons learned over a decade of Bitcoin development and public debate, designed to provide context and clarity to both seasoned and novice developers.

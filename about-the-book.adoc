@@ -1,0 +1,4 @@
+== About the Book
+Bitcoin Development Philosophy is a comprehensive guide aimed at developers who have a foundational understanding of Bitcoin concepts and processes such as Proof-of-Work, block building, and the transaction life cycle. This book delves into the intricacies of Bitcoin's design trade-offs and philosophy, offering insights and context that help developers absorb over a decade of development lessons and debates.
+
+The book is organized into several chapters, each focusing on pivotal topics within Bitcoin, such as decentralization, trustlessness, privacy, finite supply, and scaling, among others. Every chapter is enriched with links and QR codes leading to recommended articles or videos, written by seasoned Bitcoin developers. It not only provides practical insights but also encourages independent exploration and critical thinking about contradictory ideas prevalent in the Bitcoin community.
