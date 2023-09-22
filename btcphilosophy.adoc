@@ -1,9 +1,22 @@
-= Bitcoin development philosophy
-Kalle Rosenbaum <kalle@rosenbaum.se>; Linnéa Rosenbaum <linnea@rosenbaum.se>
 include::settings.adoc[]
 
-[[readme]]
-include::readme.adoc[]
+[[dedication]]
+include::dedication.adoc[]
+
+[[foreword]]
+include::foreword.adoc[]
+
+[[preface]]
+include::preface.adoc[]
+
+[[acknowledgements]]
+include::acknowledgements.adoc[]
+
+[[about-the-book]]
+include::about-the-book.adoc[]
+
+[[about-the-authors]]
+include::about-the-authors.adoc[]
 
 :sectnums:
 
@@ -36,6 +49,3 @@ include::when-shit-hits-the-fan.adoc[]
 
 [[appendixdiscussion]]
 include::appendix-discussion.adoc[]
-
-[[appendixbuild]]
-include::build.adoc[]
