@@ -48,8 +48,8 @@ ____
 
 This means that if you find a security issue, you should
 report this to the team responsible for the system. But what does this
-mean in the context of Bitcoin? As noted in <<softwaremaintenance,
-the Open source chapter>>, no one controls Bitcoin, but there's currently a
+mean in the context of Bitcoin? As noted in <<softwaremaintenance>>,
+no one controls Bitcoin, but there's currently a
 focal point for Bitcoin development, namely the
 https://github.com/bitcoin/bitcoin[Bitcoin Core Github
 repository]. The maintainers of said repository are responsible for
@@ -387,6 +387,7 @@ the files blkXXXX.dat and blkindex.dat. The reason for downloading the
 blockchain data this way, as opposed to synchronizing from scratch, was
 to reduce network bandwidth bottlenecks.
 
+//noqr
 There was a big caveat with this: the data users would download from
 knightmb https://bitcoin.stackexchange.com/a/113682/69518[weren't
 verified by the Bitcoin software] at startup. The blkindex.dat file
@@ -394,6 +395,7 @@ contained the UTXO set, and the software would accept any data therein
 as if it had already verified it. knightmb could have manipulated the
 data to give himself or anyone else some bitcoins.
 
+//noqr
 Again, people seemed to go along with this, and the reversal of the
 invalid block and its successors was successful. Miners started
 working on a new successor to block
@@ -669,6 +671,7 @@ ____
 The alert page instructed people to wait for 30 additional confirmations
 than they normally would in case they were using older versions of Bitcoin Core.
 
+//noqr
 The split mentioned above occurred on 2015-07-04 at 02:10 UTC after block
 height
 https://mempool.space/block/000000000000000006a320d752b46b532ec0f3f815c5dae467aff5715a6e579e[363730]. This
@@ -691,3 +694,15 @@ delicate one.
 * Software not intended for consensus systems are generally risky.
 * BIPs should be somewhat atomic.
 
+
+=== Conclusion
+
+Bitcoin has bugs. People discovering bugs are encouraged to disclose
+them responsibly to Bitcoin developers, so they can fix the bug
+without revealing it publicly. Ideally, the bug fix can be disguised
+as a performace improvement, or some other smoke screen.
+
+We've looked at some of the more severe issues that's surfaced through
+the years, and how they were handled. Some were discovered publicly
+through exploits while other were responisibly disclosed and could be
+fixed before malicious actors had a chance to exploit them.
